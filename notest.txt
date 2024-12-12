@@ -1,0 +1,16 @@
+#1 creating context
+ const contextCreated = createContext(defaultValue);
+
+ #2 provide 
+ <contextCreated.Provider value = {test}>
+     
+ </contextCreated/>
+
+
+ #3 consume 
+
+ useContext(contextCreated);
+
+ Encapsulation : 
+ ease of use :
+ reusability
